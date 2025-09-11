@@ -65,3 +65,9 @@ footer{
 
     
 }
+img{
+    width: 70%;
+    height: auto;
+    border-radius: 25px;
+    margin: 20px;
+    box-shadow: 5px 5px 15px black;}
