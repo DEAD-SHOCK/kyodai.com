@@ -1,5 +1,6 @@
 *{
-    background-color: silver;
+    background-color: #03045E;
+    font-family: sans-serif;
 }
 nav{
     color: cornflowerblue;
@@ -10,21 +11,12 @@ header
     width: 100%;
     height: 50px;
     text-align: center;
+    color: #90E0EF;
 }
-a:link {
-  text-decoration: none;
-}
-
-a:visited {
-  text-decoration: none;
-}
-
-a:hover {
-  text-decoration: underline;
-}
-
-a:active {
-  text-decoration: underline;
+a{
+    text-decoration: none;
+    background-color: transparent;
+    color: black;
 }
 nav{
     width: 100%;
@@ -32,26 +24,44 @@ nav{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: aqua;
+    background-color: #0077B6;
+    
 }
 .button{
     display: inline-block;
-    width: 60px;
+    width: 25%;
     height: 10px;
     margin-left: 10px;
     margin-right: 10px;
     padding: 20px;
-    background-color: aquamarine;
+    background-color: #90E0EF;
     text-align: center;
+    border-radius: 25px;
 }
 .button:hover{
-    background-color: yellowgreen;
+    background-color: #CAF0F8;
+    border-radius: 0px;
 }
 article{
     width: 100%;
     padding: 30px;
     margin-top: 20px;
     margin-bottom: 20px;
-    background-color: darkcyan;
+    background-color: #00B4D8;
     font-size: 20px;
+    border-radius: 25px;
+}
+
+footer{
+    width: 100%;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0077B6;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+
+    
 }
