@@ -16,7 +16,7 @@ header
 a{
     text-decoration: none;
     background-color: transparent;
-    color: black;
+    color:unset
 }
 nav{
     width: 100%;
@@ -25,6 +25,7 @@ nav{
     justify-content: center;
     align-items: center;
     background-color: #0077B6;
+    position: sticky;
     
 }
 .button{
@@ -37,13 +38,14 @@ nav{
     background-color: #90E0EF;
     text-align: center;
     border-radius: 25px;
+    color: black;
 }
 .button:hover{
     background-color: #CAF0F8;
     border-radius: 0px;
 }
 article{
-    width: 100%;
+    width: 98%;
     padding: 30px;
     margin-top: 20px;
     margin-bottom: 20px;
@@ -59,7 +61,7 @@ footer{
     justify-content: center;
     align-items: center;
     background-color: #0077B6;
-    position: fixed;
+    position: static;
     left: 0;
     bottom: 0;
 
@@ -70,4 +72,12 @@ img{
     height: auto;
     border-radius: 25px;
     margin: 20px;
-    box-shadow: 5px 5px 15px black;}
+
+}
+.world_map{
+    width: auto;
+    height: auto;
+    border-radius: 25px;
+    margin: 20px;
+
+}
