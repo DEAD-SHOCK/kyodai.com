@@ -1,6 +1,7 @@
 *{
     background-color: #03045E;
     font-family: sans-serif;
+    
 }
 nav{
     color: cornflowerblue;
@@ -67,17 +68,14 @@ footer{
 
     
 }
-img{
-    width: 70%;
-    height: auto;
-    border-radius: 25px;
-    margin: 20px;
 
-}
 .world_map{
-    width: auto;
-    height: auto;
+    width: 80%;
+    height: 40%;
     border-radius: 25px;
     margin: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 
 }
