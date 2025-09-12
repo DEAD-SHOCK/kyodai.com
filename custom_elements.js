@@ -2,13 +2,42 @@
 class nav extends HTMLElement {
     connectedCallback() {
         this.innerHTML=
-        ` <nav>
-        <div class="button"><a href="characters.html">characters</a></div>
-        <div class="button"><a href="world.html">world</a></div>
-        <div class="button"><a href="">story</a></div>
-        <div class="button"><a href="">artifacts</a></div>
-        <div class="button"><a href="">more</a></div>
-    </nav>
+        ` 
+<nav>
+    <div class="dropdown">
+        <button>Wiki</button>
+        <div class="content">
+            <a href="characters.html">Characters</a>
+            <a href="world.html">World</a>
+            <a href="">Lore</a>
+            <a href="">Artifacts</a>
+            <a href="">More</a>
+        </div>
+    </div>
+    <div class="dropdown">
+        <button>Chapters</button>
+        <div class="content">
+            <a href="">List of chapters</a>
+            <a href="">Updates</a>
+        </div>
+    </div>    
+    
+    <div class="dropdown">
+        <button>About us</button>
+            <div class="content">
+                <a href="">Shock</a>
+                <a href="">Others</a>
+            </div>
+        </div>
+        <div class="dropdown">
+        <button>More info</button>
+            <div class="content">
+            
+            </div>
+        </div>
+</nav>
+    
+    
     
     `
     }
