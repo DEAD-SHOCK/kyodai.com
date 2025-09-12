@@ -7,6 +7,7 @@ class nav extends HTMLElement {
         <div class="button"><a href="world.html">world</a></div>
         <div class="button"><a href="">story</a></div>
         <div class="button"><a href="">artifacts</a></div>
+        <div class="button"><a href="">more</a></div>
     </nav>
     
     `
