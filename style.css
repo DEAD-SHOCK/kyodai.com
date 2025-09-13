@@ -132,3 +132,23 @@ footer{
 /*-----------------------------------------------*/
 /* Dropdown Menu */
 /*-----------------------------------------------*/
+
+
+.character_card{
+    width: 90%;
+    float: left;
+
+}
+
+.character_card img{
+    width: 25%;
+    height: 30%;
+    position: relative;
+    left: 35%;
+    bottom: 100%;
+
+
+}
+.character_card .Metrica{
+    float: left;
+}
