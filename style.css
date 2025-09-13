@@ -2,14 +2,17 @@
 
     font-family: sans-serif;
     justify-content: center;
+    margin: 0;
+    padding: 0;
 
     
 }
 body{
     background-color: #03045e;
     background-image: url("https://www.transparenttextures.com/patterns/noise-pattern-with-subtle-cross-lines.png");
-    /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
 }
+    /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+
 nav{
     color: cornflowerblue;
     align-items: center;
@@ -38,10 +41,10 @@ nav{
 }
 
 article{
-    width: 97%;
+    /* width: 97%;
     padding: 30px;
     margin-top: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 20px; */
     background-color: #00B4D8;
     font-size: 20px;
     border-radius: 25px;
@@ -135,20 +138,26 @@ footer{
 
 
 .character_card{
-    width: 90%;
+    width: 100%;
+
     float: left;
-
-}
-
-.character_card img{
-    width: 25%;
-    height: 30%;
-    position: relative;
-    left: 35%;
-    bottom: 100%;
-
+    width: 97%;
+    padding: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 
 }
 .character_card .Metrica{
+    width: 50%;
     float: left;
 }
+.character_card img{
+    width: 25%;
+    height: 30%;
+    left:90%;
+    bottom: 100%;
+
+
+
+}
+
