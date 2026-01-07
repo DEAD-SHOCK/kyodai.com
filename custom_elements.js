@@ -26,6 +26,7 @@ class nav extends HTMLElement {
         <button>About us</button>
             <div class="content">
                 <a href="shock.html">Shock</a>
+                <a href="Emiko.html">Emiko</a>
                 <a href="">Others</a>
             </div>
         </div>
