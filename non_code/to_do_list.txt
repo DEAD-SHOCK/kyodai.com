@@ -1,1 +1,3 @@
 clickable map with <map>
+format character cards better (add <p> tags and stuff)
+actually write smth on the alt place on pics
