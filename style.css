@@ -37,6 +37,17 @@ nav{
 
     
 }
+.hero-section{
+    width: 100%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5%;
+    border-style: solid;
+    border-width: 10px;
+    border-color: gray;
+}
 
 article{
     width: 97%;
@@ -175,3 +186,18 @@ footer{
 /*-----------------------------------------------*/
 /* Dropdown Menu */
 /*-----------------------------------------------*/
+
+/*-----------------------------------------------*/
+/* CHAPTERS */
+/*-----------------------------------------------*/
+
+.big_title{
+    text-align: center;
+    font-size: 50px;
+    color: #90E0EF;
+}
+
+/*-----------------------------------------------*/
+/* CHAPTERS */
+/*-----------------------------------------------*/
+

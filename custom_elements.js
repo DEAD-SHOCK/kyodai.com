@@ -17,7 +17,7 @@ class nav extends HTMLElement {
     <div class="dropdown">
         <button>Chapters</button>
         <div class="content">
-            <a href="">List of chapters</a>
+            <a href="chapters.html">List of chapters</a>
             <a href="">Updates</a>
         </div>
     </div>    
