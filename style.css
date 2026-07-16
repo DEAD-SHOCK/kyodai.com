@@ -24,8 +24,11 @@ a{
 }
 nav{
     color: cornflowerblue;
+    margin-left: auto;
+    margin-right: auto;
     align-items: center;
-    width: 100%;
+    width: 85%;
+    border-radius: 25px;
     height: 90px;
     display: flex;
     justify-content: center;
@@ -38,11 +41,10 @@ nav{
     
 }
 .hero-section{
-    width: 60%;
+    width: 100%;
     height: auto;
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+    margin: auto;
     border-radius: 5%;
     border-style: solid;
     border-width: 10px;
@@ -50,10 +52,13 @@ nav{
 }
 
 article{
-    width: 97%;
+    max-width: 70%;
+    min-width: 50%;
     padding: 30px;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2%;
+    margin-bottom: 2%;
     background-color: #00B4D8;
     font-size: 20px;
     border-radius: 25px;
@@ -142,7 +147,8 @@ footer{
     border-radius: 20px;
     cursor: pointer;
     display: inline-block;
-    width: 200px;
+    min-width: 100px;
+    max-width: 200px;
     height: 20%;
     margin-left: 10px;
     margin-right: 10px;
@@ -160,7 +166,7 @@ footer{
 .dropdown .content{
     display: none;
     position: absolute;
-    min-width: 100px;
+    min-width: 50px;
     box-shadow: 2px 2px 5px hsla(0, 0%, 0%, 0.8);
     left: 50%;
     transform: translateX(-50%);
