@@ -18,7 +18,7 @@ class nav extends HTMLElement {
         <button>Chapters</button>
         <div class="content">
             <a href="chapters.html">List of chapters</a>
-            <a href="">Updates</a>
+            <a href="updates.html">Updates</a>
         </div>
     </div>    
     
